@@ -1,0 +1,27 @@
+body{
+    background-color: #D2D3D5;
+}
+
+.left-side{
+    background-color: #323B4A;
+}
+
+.right-side{
+    background-color: #F1F1F1;
+    color: #323B4A;
+}
+
+@media only screen and (max-width: 992px) {
+    .name {
+        color: white;
+        position: relative;
+        bottom: 870px;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .name {
+        position: relative;
+        bottom: 1158px;
+    }
+  }
